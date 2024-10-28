@@ -1,0 +1,110 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4220065057" file="D:\Users\86153\Desktop\RHEEDSimu\241013-1\rheedSimuFinal.prj" location="D:\Users\86153\Desktop\RHEEDSimu\241013-1" name="rheedSimuFinal" target="target.mlapps" target-name="打包为 App">
+    <param.appname>rheedSimuFinal</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\86153\AppData\Local\Temp\tpbb299779_2608_405d_a859_1478649f8ebe.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>4bb7573b-5582-42c2-a8aa-82a666f56103</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\app2.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\getK.m</file>
+      <file>${PROJECT_ROOT}\intensity.m</file>
+      <file>${PROJECT_ROOT}\kvalue.m</file>
+      <file>${PROJECT_ROOT}\rheedSimu.m</file>
+      <file>${PROJECT_ROOT}\signal.m</file>
+      <file>${PROJECT_ROOT}\slanCM.m</file>
+      <file>${PROJECT_ROOT}\slanCM_Data.mat</file>
+      <file>${PROJECT_ROOT}\str2vec.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="D:\Users\86153\Desktop\RHEEDSimu" name="241013-1" optional="false">D:\Users\86153\Desktop\RHEEDSimu\241013-1</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\Matlab\matlab2022</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
